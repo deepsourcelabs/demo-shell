@@ -1,11 +1,4 @@
-#!/bin/bash
 # Demo shell issues
-
-# SH-1065
-foo(input) {
-  echo "$input"
-}
-foo("hello world");
 
 # SH-1000
 echo "$"
