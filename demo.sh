@@ -1,4 +1,3 @@
-#!/bin/bash
 # Demo shell issues
 
 # SH-1065
