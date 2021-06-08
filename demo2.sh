@@ -303,3 +303,7 @@ while read -r host
 do
   ssh "$host" "uptime"
 done < hosts.txt
+
+a='1+1'
+echo $(($a * 5))    # becomes 1+1*5
+$ echo $((a * 5))     # evaluates as (1+1)*5
