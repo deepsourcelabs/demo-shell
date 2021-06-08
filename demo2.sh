@@ -1,23 +1,19 @@
-# SH-1046
 if true
 then
   echo "True"
 done
 
-# SH-1047
 if true
 then
   echo "True"
 done
 
-# SH-10
 if true
   echo "foo"
 elif true
   echo "bar"
 fi
 
-# SH-1050
 if true
   echo "True"
 fi
@@ -38,46 +34,37 @@ yes() {
     true
 }
 
-# SH-1064
 foo() {
   echo "hello world"
 }
 foo()
 
-# SH-1065
 foo(input) {
   echo "$input"
 }
 foo("hello world");
 
-# SH-1066
 $greeting="Hello World"
 
-# SH-1078
 
-# SH-1081
 If true
 Then
   echo "hello"
 Fi
 
-# SH-1082
 $ cat -v file
 M-oM-;M-?#!/bin/bash
 echo "hello world"
 
-# SH-1088
 grep ^(.*)\1$ file
 # or
 var=myfunction(value)
 
-# SH-1089
 if true
 then
   echo hello
 fi
 
-# SH-1097
 var==value
 
 # SH-1110
@@ -298,25 +285,20 @@ then
   echo "$var is not numeric"
 fi
 
-# SH-2084
 i=4
 $(( i++ ))
 
-# SH-2087
 ssh host.example.com << EOF
   echo "Logged in on $HOSTNAME"
 EOF
 
-# SH-2088
 rm "~/Desktop/$filename"
 
-# SH-2093
 echo "Starting compilation"
 exec ./compile
 echo "Starting deployment"
 exec ./deploy
 
-# SH-2095
 while read -r host
 do
   ssh "$host" "uptime"
